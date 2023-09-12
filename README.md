@@ -1,5 +1,5 @@
 # currency-converter
 
-Experimenting DOM manipulation, HTML/CSS code as a beginner. 
+Experimenting with DOM manipulation, and HTML/CSS code as a beginner. 
 
-I used 3 currencies (at the moment). The user can choose the the currency to convert and submit the form. Then, the JS code display the currencies after being converted.
+I used 3 currencies (at the moment). The user can choose the currency to convert and submit the form. Then, the JS code displays the currencies after being converted.
