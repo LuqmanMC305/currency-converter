@@ -9,7 +9,16 @@
 
 .form{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: lightgray;
+    width: fit-content;
+    margin: 3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border: 2px solid rgb(196, 194, 194);
+
     
 }
 
@@ -31,13 +40,7 @@
     border: 2px solid darkcyan;
 }
 
-.submit{
-    margin-top: 2rem;
-    padding: 5px;
-    width: 100px;
-    margin-left: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .submit:hover{
     background-color: lightgreen;
@@ -45,13 +48,29 @@
 }
 
 .result{
-    margin: 6rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: beige;
-    width: 150px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
+    margin: 3rem auto;
+    background-color: beige;
+    width: 300px;
+    height: 25px;
+
 }
+
+.button{
+    display: flex;
+    flex-direction:row;
+    margin-top: 2rem;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+  
+}
+
+
+
+
     
 
 
